@@ -93,7 +93,7 @@
         />
         <div *ngIf="submitted && f['Email'].errors" class="invalid-feedback">
           <div *ngIf="f['Email'].errors['required']">Campo requerido</div>
-          <div *ngIf="f['Email'].errors['Email']">Correo inválido</div>
+          <div *ngIf="f['Email'].errors['email']">Correo inválido</div>
         </div>
       </div>
   
