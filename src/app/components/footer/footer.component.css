@@ -1,0 +1,24 @@
+.footer-links{
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-links li{
+    display: block;
+}
+.social-icons{
+    padding-left: 0;
+    margin-bottom: 4rem;
+}
+.social-icons li{
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.social-icons a{
+    color:black;
+    font-size: 1rem;
+    display: inline-block;
+    line-height: 1rem;
+    text-align: center;
+}
